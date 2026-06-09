@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+
+body {
+    box-sizing: border-box;
+    background:#f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form.flog, form.updatep {
+    background: #fff;
+    padding: 10px;
+    width: 25%;
+    border: 1px solid #000;
+}
+
+form.flog label, form.updatep label  {
+    width: 100%;
+    background: #fff;
+    font-size: small;
+}
+
+form.flog input, form.flog select, form.updatep input, select {
+    height: 30px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+    outline: none;
+}
+
+form.flog h3, form.updatep h3 {
+    margin-bottom: 5px;
+}
+
+form.flog input[type="submit"], form.updatep input[type="submit"] {
+    background: #030303;
+    color: #fff;
+    cursor: pointer;
+}
+
+form.flog input[type="submit"]:hover {
+    background-color: #3f3f3f;
+}
+
+.home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+}
+
+.home header nav a {
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+}
+
+.home header nav span {
+    margin-right:20px;
+}
+
+.home header nav span b {
+    color: red;
+}
+
+.home header nav a.a {
+    background: #000;
+    color: #fff;
+}
+
+.home header nav a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.formr {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+.formr form {
+    margin: 20px;
+    grid-column: span 3;
+    width: 100%;
+}
+
+.usersA {
+    grid-column:5 / span 7;
+}
+
+.usersA table {
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+table th {
+    padding: 5px;
+}
+
+.usersA table tr, td {
+    padding: 10px;
+}
+
+.usersA table td {
+    text-align: center;
+}
+
+.edit {
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.delete {
+    padding: 5px;
+    background: crimson;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.del {
+    margin-top: 10px;
+    color:crimson; 
+    text-align: center;
+    font-size: large;
+}
+
+.fnw {
+    min-height: 90vh;
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin: 30px;
+
+}
+
+main .card {
+    padding: 10px;
+    background: #fff;
+    grid-column: span 6;
+    cursor: pointer;
+}
+
+main .card img {
+    height: 200px;
+    float: left;
+}
+
+main .card span {
+    margin-left: 10px;
+    display: block;
+}
+
+.editMov {
+    color: #000000;
+    background-color: #e0e003;
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px;
+}
+
+.deleteMov {
+    color: #ffffff;
+    background-color: crimson;
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.flex span {
+    margin-top: 10px;
+}
+
+.msg {
+    grid-column: span 12;
+    text-align: center;
+    color: crimson;
+}
+
+main h1 {
+    min-height: 80vh;
+    grid-column: span 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label img {
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search {
+    grid-column: span 12;
+    padding: 10px;
+    /* background-color: #fff; */
+}
+.search input {
+    width: 100%;
+    border: 1px solid #000;
+    background: #f1f1f1;
+    padding: 5px;
+    outline: none;
+}
+
+.s {
+    grid-column: span 12;
+    color: royalblue;
+}
